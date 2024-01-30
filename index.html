@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>メディアリテラシー最終課題</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="メディアリテラシー最終課題">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body class="home">
+		<div id="container">
+			<header>
+
+				<div id="logo">
+					<h1><a href="index.html"><img src="image/logo.png" alt="メディアリテラシー最終課題"></a></h1>
+					<p>私たちは1年後期メディアリテラシーの最終課題として、自分たちの会話を録画し、言語特徴/非言語特徴の2つの側面から分析を試みた。</p>
+				</div>
+
+				<div id="mainimg">
+					<video src="images/mainimg.mp4" autoplay loop muted playsinline>
+				</div>
+			</header>
+
+			<!--開閉ブロック-->
+			<div id="menubar">
+				<nav>
+					<ul>
+						<li><a href="index.html">ホーム</a></li>
+						<li><a href="">分析結果</a>
+							<ul>
+								<li><a href="about.html">概要と書き起こし</a></li>
+								<li><a href="langanly.html">言語特徴分析</a></li>
+								<li><a href="nonlanganaly.html">非言語特徴分析</a></li>
+							</ul>
+						</li>
+						<li><a href="fq.html">質問や感想フォーム</a></li>
+					</ul>
+				</nav>
+
+				<div class="sh">
+					<p>サイト制作者<br>xxxxxxxx / xxxxxxxx / xxxxxxxx</p>
+				</div>
+				<!--/.sh-->
+			</div>
+			<!--/#menubar-->
+
+			<main>
+				<div class="c2">
+					<div class="main">
+						<section>
+							<h2 id="news">News</h2>
+							
+							<dl id="new">
+							<dt>2024/01/28<span>その他</span></dt>
+							<dd>HP 初公開</dd>
+
+							<dt>2024/01/29<span>その他</span></dt>
+							<dd>概要と書き起こし 更新</dd>
+						</section>
+						
+
+						<section>
+							<h2 id="alart">著作権等 閲覧に際しての注意</h2>
+
+							<h3>注意事項</h3>
+							<p>当サイトに掲載している、ビデオ/書き起こし/言語特徴分析/非言語特徴分析等の著作権はすべて私たちサイト作成者に属す。</p>
+							<p>許可なき保存、複製、再配布等 著作権/肖像権を侵害する行為を固く禁ずる。</p>
+							<p>私たちは当サイトの内容に関連する損害に対して、一切責任を負わない。</p>
+						</section>
+					</div>
+					<!--/.main-->
+
+					<div class="sub">
+						<h3>ホーム</h3>
+						<ul class="submenu">
+							<li><a href="#news">●News</a></li>
+							<li><a href="#alart">●著作権等 閲覧に際しての注意</a></li>
+							<li><a href="#topics">●Topics</a></li>
+						</ul>
+					</div>
+					<!--/.sub-->
+				</div>
+				<!--/.c2-->
+
+				<section class="bg1">
+					<h2 id="topics">Topics</h2>
+
+					<div class="list-container">
+						<div class="list blur">
+							<figure><img src="images/sample1.jpg" alt=""></figure>
+							<div class="text">
+								<h4>非言語特徴分析</h4>
+								<p>非言語特徴の分析結果</p>
+							</div>
+							<span class="new">NEW</span>
+						</div>
+
+						<div class="list blur">
+							<figure><img src="images/sample1.jpg" alt=""></figure>
+							<div class="text">
+								<h4>言語特徴分析</h4>
+								<p>言語特徴の分析結果</p>
+							</div>
+						</div>
+
+						<div class="list blur">
+							<figure><img src="images/sample1.jpg" alt=""></figure>
+							<div class="text">
+								<h4>概要と書き起こし</h4>
+								<p>本分析の概要と書き起こし</p>
+							</div>
+						</div>
+					</div>
+					<!--/.list-container-->
+
+					<p class="btn mt30"><a href="service.html" class="ws">一覧へ</a></p>
+				</section>
+			</main>
+
+			<footer>	
+				<ul id="footermenu">
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="about.html">概要と書き起こし</a></li>
+					<li><a href="langanly.html">言語特徴分析</a></li>
+					<li><a href="nonlanganaly.html">非言語特徴分析</a></li>
+					<li><a href="fq.html">質問や感想フォーム</a></li>
+				</ul>
+				
+				<div class="copy">
+					<!--<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>-->
+					<span class="pr">《Web Design:Template-Party》</span>
+				</div>
+			</footer>
+
+			<!--開閉ボタン（ハンバーガーアイコン）-->
+			<div id="menubar_hdr">
+				<span></span><span></span><span></span>
+			</div>
+		</div>
+		<!--/#container-->
+
+		<!--jQueryの読み込み-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+		<!--パララックス（inview）-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+		<script src="js/jquery.inview_set.js"></script>
+
+		<!--このテンプレート専用のスクリプト-->
+		<script src="js/main.js"></script>
+
+		<!--ページの上部へ戻るボタン-->
+		<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+	</body>
+</html>
