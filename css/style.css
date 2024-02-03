@@ -324,7 +324,7 @@ main p + p {
 	margin-top: -1em;
 }
 
-main table {
+.nonlangtab {
 	border-collapse: collapse;
 	width:80%;
 	margin-right: auto;
@@ -335,29 +335,29 @@ main table {
 	letter-spacing: 1px;
 }
 
-main caption {
+.nonlangtab caption {
 	caption-side: top;
 	padding: 10px;
 	font-weight: bold;
 }
 
-main thead,tfoot {
+.nonlangtab thead,tfoot {
 	background-color: rgb(228 240 245);
 }
 
-main td {
+.nonlangtab td {
 	border: 1px solid rgb(160 160 160);
 	padding: 8px 10px;
 	text-align: left;
 }
 
-main th,.n{
+.nonlangtab th,.n{
 	border: 1px solid rgb(160 160 160);
 	padding: 8px 10px;
 	text-align: center;
 }
 
-main tbody > tr:nth-of-type(even) {
+.nonlangtab tbody > tr:nth-of-type(even) {
 	background-color: rgb(237 238 242);
 }
 
