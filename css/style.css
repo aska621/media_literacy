@@ -115,7 +115,7 @@ header a {
 /*ロゴ画像*/
 header #logo img {display: block;}
 header #logo {
-	width: 200px;		/*幅*/
+	width: 350px;	/*幅*/
 	margin: 0 auto;		/*ロゴを左右中央に配置*/
 }
 
@@ -322,6 +322,43 @@ main p {
 }
 main p + p {
 	margin-top: -1em;
+}
+
+main table {
+	border-collapse: collapse;
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px solid rgb(140 140 140);
+	font-family: sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 1px;
+}
+
+main caption {
+	caption-side: top;
+	padding: 10px;
+	font-weight: bold;
+}
+
+main thead,tfoot {
+	background-color: rgb(228 240 245);
+}
+
+main td {
+	border: 1px solid rgb(160 160 160);
+	padding: 8px 10px;
+	text-align: left;
+}
+
+main th,.n{
+	border: 1px solid rgb(160 160 160);
+	padding: 8px 10px;
+	text-align: center;
+}
+
+main tbody > tr:nth-of-type(even) {
+	background-color: rgb(237 238 242);
 }
 
 
@@ -683,6 +720,9 @@ p.btn {margin: 0;}
 	padding-top: 5%;	/*上に空ける余白。上下間のバランスをとって下さい。*/
 }
 
+main table {
+	width:80%;
+}
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
@@ -708,6 +748,7 @@ p.btn {margin: 0;}
 
 /*listブロック
 ---------------------------------------------------------------------------*/
+/*listブロック全体を囲むブロック*/
 .list {
 	display: flex;					/*flexボックスを使う指定*/
 	justify-content: space-between;	/*並びかたの種類の指定*/
@@ -723,6 +764,10 @@ p.btn {margin: 0;}
 .list .text {
 	flex: 1;
 	margin-right: 5%;
+}
+
+main table {
+	width:50%;
 }
 
 
@@ -851,7 +896,7 @@ html, body {
 .list-container {
 	display: flex;		/*flexボックスを使う指定*/
 	flex-wrap: wrap;	/*折り返す指定*/
-	/*justify-content: space-between;	並びかたの種類の指定*/
+	justify-content: space-between;	/*並びかたの種類の指定*/
 }
 
 /*１個あたりのボックス設定*/
